@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Ahmed",
+      "lastName": "Mohamed",
+      "email": "ahmed@example.com",
+      "gender": "MALE",
+      "phone": "1234567890",
+      "password": "12345678",
+      "avatar": "https://ui-avatars.com/api/?name=Ahmed+Mohamed&background=3B82F6&color=fff",
+      "isActive": true,
+      "coverImages": [
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1495567720989-cebdbdd97913?auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1469594292607-7bd87cbb66f5?auto=format&fit=crop&w=1470&q=80"
+      ],
+      "sharedUrl": "https://truth-box.app/u/ahmed-mohamed",
+      "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=687&q=80",
+      "createdAt": "2025-01-01T00:00:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "_id": "1",
+      "content": "بشار انت مبرمج مرعب والله🔥 طريقة شغلك تخوف!",
+      "createdAt": "2025-01-10T13:45:00.000Z",
+      "isAnonymous": true
+    },
+    {
+      "_id": "2",
+      "content": "Your code is so clean Bashar, I literally learned from reading it 😭🔥",
+      "createdAt": "2025-01-10T14:10:00.000Z",
+      "isAnonymous": true
+    },
+    {
+      "_id": "3",
+      "content": "استمر يا بشار.. انت واضح مستقبل في البرمجة 💪",
+      "createdAt": "2025-01-10T14:30:00.000Z",
+      "isAnonymous": true
+    },
+    {
+      "_id": "4",
+      "content": "Bro Bashar you’re the type of dev that companies fight to hire 🔥",
+      "createdAt": "2025-01-10T15:10:00.000Z",
+      "isAnonymous": true
+    },
+    {
+      "_id": "5",
+      "content": "مستواك كل يوم بيزيد، وفعلاً شكلك هتبقى Top Developer قريب جدًا 👑",
+      "createdAt": "2025-01-10T15:30:00.000Z",
+      "isAnonymous": true
+    },
+    {
+      "_id": "6",
+      "content": "Bashar this project is impressive, honestly proud of you man!",
+      "createdAt": "2025-01-10T16:00:00.000Z",
+      "isAnonymous": true
+    },
+    {
+      "_id": "7",
+      "content": "يا بشار انت بتلهم أي حد بيشوف شغلك.. Keep going 🙌",
+      "createdAt": "2025-01-10T16:50:00.000Z",
+      "isAnonymous": true
+    },
+    {
+      "_id": "8",
+      "content": "Man your logic is insane 🔥 I'm literally jealous 😂",
+      "createdAt": "2025-01-10T17:10:00.000Z",
+      "isAnonymous": true
+    },
+    {
+      "_id": "9",
+      "content": "كل لما اشوف كود ليك، بقول مستحيل يكون لسه بتتعلم.. واضح انك في مرحلة متقدمة!",
+      "createdAt": "2025-01-10T18:00:00.000Z",
+      "isAnonymous": true
+    },
+    {
+      "_id": "10",
+      "content": "Bashar keep shining man, you’re already inspiring people 🔥",
+      "createdAt": "2025-01-10T18:40:00.000Z",
+      "isAnonymous": true
+    }
+  ],
+  "userUrls": {
+    "1": "https://sara7a.app/u/ahmed-mohamed-123",
+    "2": "https://sara7a.app/u/sarah-johnson-456",
+    "3": "https://sara7a.app/u/michael-brown-789"
+  },
+
+  "routes": {
+    "/api/auth/login": "GET /users",
+    "/api/auth/signup": "POST /users",
+    "/api/auth/me": "GET /users/1",
+    "/api/messages": "GET /messages",
+    "/api/messages/:id": "DELETE /messages/:id",
+    "/api/users/:id": "GET /users/:id"
+  }
+}
