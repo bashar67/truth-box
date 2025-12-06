@@ -21,7 +21,7 @@ A modern **React 18 + TypeScript** front-end application for **anonymous messagi
 - [Security & Performance](#🔐-security--performance)
 - [Accessibility](#♿-accessibility)
 - [Responsive Design](#📱-responsive-design)
-- [Screenshots](#🖼-screenshots)
+- [Demo Video](#🖼-Demo-Video)
 - [License](#📄-license)
 - [Author](#🤝-author)
 
@@ -72,6 +72,10 @@ A modern **React 18 + TypeScript** front-end application for **anonymous messagi
 
 ---
 
+### Demo Video
+
+[![Watch Demo Video](https://img.shields.io/badge/Watch%20Demo%20Video-Google%20Drive-red?logo=google-drive)](https://drive.google.com/file/d/1OeMKR30ckiJsGI7ZONLs-aUDNBX7I7A7/view?usp=drive_link)
+
 ## ⚡ Setup Instructions
 
 ```bash
@@ -88,3 +92,10 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+## 🤝 Author
+
+**Bashar Yousri**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Bashar%20Yousri-blue?logo=linkedin)](https://www.linkedin.com/in/bashar-yousri-330882234)
+
+> Feel free to connect with me on LinkedIn for feedback, questions, or collaborations! 🚀
